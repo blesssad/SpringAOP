@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.openschool.homework1.entity.MethodtimeEntity">
+        <table name="methodtime" schema="public" catalog="t1school"/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="-1"/>
+            </id>
+            <basic name="methodName">
+                <column name="method_name"/>
+            </basic>
+            <basic name="className">
+                <column name="class_name"/>
+            </basic>
+            <basic name="callCount">
+                <column name="call_count" precision="-1"/>
+            </basic>
+            <basic name="workTime">
+                <column name="work_time" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
