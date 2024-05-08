@@ -28,11 +28,11 @@
 1. Склонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/blesssad/VK_Task
+    git clone https://github.com/blesssad/SpringAOP
     ```
 
 2. Далее необходимо поменять настройки для создания базы данных:
-- Перейдите в VK_Task/src/main/resources и отредактируйте application.properties.
+- Перейдите в SpringAOP/src/main/resources и отредактируйте application.properties.
 - Смените username и password.
 - Также можно поменять url, по умолчанию это t1school.
 
