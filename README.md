@@ -39,10 +39,8 @@
 
 ## Эндпоинты
 
-- localhost:8080/api/posts
-- localhost:8080/api/albums/
-- localhost:8080/api/users/
-- localhost:8080/newUser
-- localhost:8080/login
-- localhost:8080/logout
-- localhost:8080/swagger-ui/index.html#/
+- localhost:8080/swagger-ui/index.html 
+- localhost:8080/time/{className}/{methodName} - возвращает информацию о времени выполнения конкретного метода 
+- localhost:8080/time/{methodName} - возвращает информацию о времени выполнения всех методов с одинаковым названием
+- localhost:8080/time/avgtime/{className}/{methodName} - возвращает среднее время выполнения метода
+- localhost:8080/time/total/{className} - возвращает общее время выполнения всех методов в классе

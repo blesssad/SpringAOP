@@ -31,7 +31,7 @@ public class TrackTimeController {
     }
 
     @GetMapping("/{methodName}")
-    public ResponseEntity<List<MethodTimeEntity>> getMethodTimeEntitiesByClassName(
+    public ResponseEntity<List<MethodTimeEntity>> getMethodTimeEntitiesByMethodName(
             @PathVariable("methodName") String methodName) {
         List<MethodTimeEntity> methodTimeEntities = timeInformationService.getAllMethodTime(methodName);
         if (!methodTimeEntities.isEmpty()) {
